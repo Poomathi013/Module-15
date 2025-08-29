@@ -16,7 +16,7 @@ ALGORITHM:
 9. **End the program.**
 
 PROGRAM:
-
+```
 from binarytree import Node
 def _build_bst_from_sorted_values(sorted_values):
     if len(sorted_values) == 0:
@@ -41,7 +41,7 @@ l=_build_bst_from_sorted_values(x)
 print("Postorder :",l.postorder)
 left_subtree(l)
 print("\nIs this a Binary Search Tree? ",l.is_bst)
-
+```
 OUTPUT
 
 ![image](https://github.com/user-attachments/assets/916040ae-8ab3-4099-ac84-9295f3d1335f)
